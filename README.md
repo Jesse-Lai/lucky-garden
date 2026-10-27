@@ -29,6 +29,10 @@ Open http://127.0.0.1:4337 . Serve this folder over HTTP; opening index.html dir
 - `app.js`: scene, animation, camera, participant management, and draw logic
 - `vendor/three.module.js`: bundled Three.js r169
 
+## License
+
+Lucky Garden is available under the [MIT License](LICENSE). You may use it at your meetings, modify it, and share your own version, including commercially, while retaining the license and copyright notice.
+
 ## Third-party software
 
 Three.js is copyright 2010–2024 Three.js Authors, distributed under the MIT license. See `vendor/THREE-LICENSE.txt`.
