@@ -1,0 +1,76 @@
+*{box-sizing:border-box}body{margin:0;background:#fafbf8;color:#293e35;font-family:Inter,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:default;opacity:.45}button:focus-visible,summary:focus-visible{outline:3px solid #d4ab5f;outline-offset:4px}header{height:94px;margin:0 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e7ebe4}.brand{text-decoration:none;color:inherit;display:flex;align-items:center;gap:12px;font-size:17px;font-weight:600}.brand-icon{font-size:30px}.brand small{font-size:10px;letter-spacing:2px;font-weight:400;color:#859087}.divider{width:1px;height:18px;background:#d9dfd5;margin:0 5px}.quiet{border:0;background:transparent;color:#7c877e;font-size:12px;padding:8px}main{display:grid;grid-template-columns:minmax(0,1fr) 320px;max-width:1440px;margin:0 auto;padding:44px 5% 24px;gap:44px}.play{min-width:0}.intro{text-align:center;padding:13px 0 0}.eyebrow{font-size:10px;letter-spacing:2px;color:#879386}.intro .eyebrow{font-size:11px;letter-spacing:3px}.eyebrow i{display:inline-block;width:5px;height:5px;background:#a0ae87;border-radius:50%;margin-right:8px}h1{font-size:32px;letter-spacing:1px;font-weight:500;margin:17px 0 12px}.intro p{color:#91998f;font-size:13px;margin:0}#scene{height:440px;position:relative;margin-top:4px}#scene canvas{width:100%;height:100%;display:block;image-rendering:pixelated}.scene-tag{position:absolute;top:26px;left:0;font-size:8px;letter-spacing:1.6px;color:#a0a797;writing-mode:vertical-rl}.scene-tag span{margin:12px 0}#result{position:absolute;bottom:2px;left:0;width:100%;text-align:center;pointer-events:none}#result-label{font-size:10px;color:#8d9988;letter-spacing:2px}#winner{display:block;font-size:21px;font-weight:500;margin-top:9px;overflow-wrap:anywhere;padding:0 24px}#result.won strong{color:#a97d35;animation:reveal .6s ease}@keyframes reveal{from{opacity:0;transform:translateY(12px) scale(.9)}to{opacity:1;transform:none}}.action{text-align:center;padding-top:23px}.primary{background:#344f3c;color:#fff;border:1px solid #344f3c;box-shadow:0 5px 0 #243e2c,0 12px 20px #304c3820;border-radius:9px;padding:17px 25px;min-width:270px;display:inline-flex;align-items:center;justify-content:space-between;gap:28px;letter-spacing:1px;transition:transform .2s}.primary:hover{background:#456249;transform:translateY(-2px)}.primary:active{transform:translateY(3px)}.primary span:first-child{font-size:22px}.action p{font-size:10px;color:#939e8f;letter-spacing:1px;margin:18px 0 26px}.history{display:flex;border-top:1px solid #e3e8df;padding-top:20px;gap:20px;font-size:11px;align-items:center;color:#9aa294}.history>span{color:#667660;white-space:nowrap}.history>div{display:flex;gap:8px;flex-wrap:wrap;flex:1}.history b{background:#ecf0e7;padding:5px 10px;border-radius:20px;color:#68765d;font-weight:400}aside{align-self:start;background:#fff;border:1px solid #e7ebe2;border-radius:16px;padding:26px 24px;box-shadow:0 12px 40px #364e3410}.panel-title{display:flex;justify-content:space-between;align-items:center}h2{font-size:20px;font-weight:500;margin:10px 0 27px}.people-icon{font-size:30px;color:#9baa8a;margin-top:-18px}.count-line{border-top:1px solid #eef0e9;padding:22px 0;display:flex;justify-content:space-between;align-items:center;font-size:12px}.stepper{display:flex;align-items:center;border:1px solid #e3e8de;border-radius:7px;overflow:hidden}.stepper button{border:0;background:#f6f8f2;width:29px;height:30px;color:#65765c}.stepper input{width:36px;text-align:center;border:0;appearance:textfield;color:#354c37;background:transparent}.stepper input::-webkit-inner-spin-button{appearance:none}.list-label{display:flex;justify-content:space-between;font-size:11px;color:#788771;margin-bottom:13px}.list-label span:last-child{color:#adb5a6;font-size:10px}#names{max-height:316px;overflow:auto;scrollbar-width:thin;scrollbar-color:#d7dfce transparent;padding-right:3px}.name-row{display:flex;gap:10px;align-items:center;margin-bottom:9px}.number{font-size:10px;color:#a7b09e;width:17px}.dot{width:7px;height:7px;border-radius:2px;flex-shrink:0}.name-row input{width:100%;min-width:0;border:1px solid #e8ece2;border-radius:6px;padding:9px 10px;font-size:12px;background:#fcfdfb;color:#43533e;outline:0}.name-row input:focus{border-color:#98ad82;box-shadow:0 0 0 3px #eff4e9}.name-row button{border:0;background:transparent;color:#adb7a2;font-size:16px;padding:3px}.add{width:100%;background:#f5f8f0;border:1px dashed #dce4d0;border-radius:6px;padding:10px;font-size:11px;color:#71855f}#error{font-size:11px;color:#ac603c;margin:5px 0 9px;min-height:2px}details{margin-top:19px;font-size:11px;color:#87937c}summary{cursor:pointer;display:flex;justify-content:space-between}textarea{width:100%;height:110px;margin:12px 0;border:1px solid #dce4d0;padding:10px;resize:vertical;border-radius:6px}.note{margin-top:25px;border-top:1px solid #eef1e9;padding-top:15px;display:flex;gap:12px;color:#8b987f}.note>span{font-size:24px}.note p{font-size:11px;line-height:1.9;margin:0}.note small{font-size:9px;color:#a9b09f}footer{margin:0 5%;padding:24px 0 27px;display:flex;justify-content:space-between;font-size:10px;color:#a3ad9c;letter-spacing:1px}footer span:last-child{font-size:8px;letter-spacing:1.7px}@media(min-width:1500px){main{padding-top:65px}#scene{height:490px}}@media(max-width:950px){main{gap:22px;padding-inline:3%;grid-template-columns:minmax(0,1fr) 290px}h1{font-size:25px}aside{padding:22px 18px}#scene{height:390px}}@media(max-width:700px){header{height:72px}.brand small,.divider{display:none}main{grid-template-columns:1fr;padding:24px 5%;gap:30px}#scene{height:360px}h1{font-size:25px}.intro .eyebrow{font-size:9px}aside{width:100%}#names{max-height:260px}footer{font-size:9px}footer span:last-child{display:none}.scene-tag{display:none}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* English copy keeps a natural rhythm at compact widths. */
+.intro .eyebrow{letter-spacing:2px}h1{letter-spacing:-.7px}.primary{letter-spacing:.3px}.note small{display:block;line-height:1.7}.history>span{letter-spacing:0}#result-label{letter-spacing:1.5px}
+/* Japanese garden: warm paper, cedar, ink, and a small vermilion accent. */
+body{background:#f7f3eb;color:#3e443b;background-image:radial-gradient(#9c8a7012 .6px,transparent .6px);background-size:5px 5px}header{border-color:#ddd5c8}.brand-icon{color:#a6503e}.brand{font-family:Georgia,serif;font-weight:400}.brand small{font-family:Inter,sans-serif;color:#9a8c7b}h1,h2,#winner{font-family:Georgia,"Times New Roman",serif;font-weight:400}h1{font-size:39px;letter-spacing:-1px}.intro p{color:#8a8577}.eyebrow,.intro .eyebrow{color:#9a705c;letter-spacing:1.8px}.eyebrow i{background:#a6503e}#scene{height:510px;margin-top:0}#scene canvas{image-rendering:pixelated}#result{bottom:-7px}#winner{font-size:27px}#result-label{color:#91836c;font-size:9px}#result.won strong{color:#a6503e;font-size:35px}.primary{background:#a6503e;border-color:#a6503e;border-radius:4px;box-shadow:0 4px 0 #783c30,0 12px 24px #87624c1a}.primary:hover{background:#b25e49}.action{padding-top:35px}aside{background:#fffdf6e6;border-color:#e2d9cb;border-radius:5px;box-shadow:0 15px 35px #65534008}.panel-title h2{font-size:25px}.people-icon{color:#a6503e}.name-row input{background:#fbf8f1;border-color:#e7dfd1;border-radius:3px}.name-row input:focus{border-color:#bc8e78;box-shadow:0 0 0 3px #f4e8db}.add,.stepper button{background:#f2eee2;color:#87755d;border-color:#dcd2c0}.add,.stepper,textarea{border-radius:3px}.note,.count-line{border-color:#e9e1d4}.history{border-color:#ded5c6}.history b{background:#ede4d7;color:#82634c}.scene-tag{color:#a28d78}footer{color:#a29581}@media(min-width:1500px){#scene{height:560px}}@media(max-width:950px){h1{font-size:31px}#scene{height:460px}main{gap:25px}}@media(max-width:700px){h1{font-size:32px}#scene{height:410px}.intro .eyebrow{font-size:8px;letter-spacing:1.3px}#winner{font-size:24px}.brand{font-size:20px}}
+/* Keep only the draw and participant controls; remove annotated secondary UI. */
+.brand-icon,.brand .divider,.brand small,#sound,.intro .eyebrow,.intro>p,
+.scene-tag,.panel-title .eyebrow,.people-icon,.list-label>span:last-child,
+#result-label,#odds,.primary>span,aside details,aside .note,.history,footer{display:none!important}
+header{border-bottom:0;height:76px}
+#result:not(.won){display:none}
+#result.won{bottom:-7px}
+.primary{justify-content:center;gap:0;min-width:240px}
+.intro{padding-top:0}
+.intro h1{margin:8px 0 0}
+.panel-title h2{margin:0 0 25px}
+aside{padding-bottom:24px}
+main{padding-top:24px;padding-bottom:36px}
+.action{padding-top:30px}
+@media(min-width:1500px){main{padding-top:35px}}
+
+/* The reference renders at no more than 480 physical pixels across. */
+#scene canvas{image-rendering:pixelated;image-rendering:crisp-edges;image-rendering:pixelated}
+/* Match the implemented gem-mine game: white space and quiet neutral controls. */
+body{background:#fff;background-image:none;color:#364137}
+.brand,h1,h2,#winner{font-family:Inter,-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+.brand{font-weight:500}h1{font-size:30px;font-weight:500;letter-spacing:-.5px}
+aside{background:#fff;border-color:#e6e9e2;border-radius:12px;box-shadow:none}
+.panel-title h2{font-size:21px}.name-row input{background:#fafbf8;border-color:#e4e8df;border-radius:5px}
+.name-row input:focus{border-color:#9da991;box-shadow:0 0 0 3px #eff2e9}
+.primary{background:#465b45;border-color:#465b45;border-radius:6px;box-shadow:0 3px 0 #31422f}
+.primary:hover{background:#52694f}.add,.stepper button{background:#f6f8f2;color:#718064;border-color:#e0e5d9}
+.count-line{border-color:#e9ece5}#result.won strong{color:#485d3f;font-family:inherit;font-size:30px}
+@media(max-width:700px){h1{font-size:27px}}
+
+/* Separate the scene frame from the heading, including at narrow widths. */
+#scene{margin-top:24px}
+@media(max-width:700px){#scene{margin-top:20px}}
+
+.participant-count{font-size:14px;font-weight:500;color:#465b45;font-variant-numeric:tabular-nums;padding:0 2px}
+
+/* Keep the game name on the scene centerline, in the existing title position. */
+header .brand{display:none}
+/* Fit the complete game to the viewport; only the guest list scrolls. */
+html,body{height:100%;margin:0;overflow:hidden}
+body>header{display:none}
+main{width:100%;height:100vh;height:100dvh;max-width:1440px;margin:0 auto;padding:clamp(16px,4vh,40px) clamp(20px,4vw,64px);grid-template-columns:minmax(0,1fr) clamp(270px,25vw,320px);grid-template-rows:minmax(0,1fr);gap:clamp(20px,3vw,44px);overflow:hidden}
+.play{display:flex;flex-direction:column;min-height:0;height:100%;min-width:0}
+.intro{flex:none;padding:0}
+.intro h1{margin:0;font-size:clamp(24px,3.8vh,32px);line-height:1.25}
+#scene{flex:1 1 0;min-height:0;height:auto;margin:clamp(12px,2vh,24px) 0 44px;position:relative}
+#scene canvas{position:absolute;inset:0;width:100%;height:100%}
+#result.won{bottom:-36px}
+#result.won strong{margin:0;font-size:clamp(21px,3.5vh,30px);line-height:1.15;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.action{flex:none;padding:0 0 4px;text-align:center}
+.primary{min-height:48px;padding:13px 24px;max-width:100%}
+aside{display:flex;flex-direction:column;align-self:stretch;min-height:0;max-height:100%;padding:clamp(16px,2.8vh,26px) 20px;overflow:hidden}
+.panel-title,.count-line,.list-label,#error,#add{flex:none}
+.panel-title h2{margin:0 0 clamp(12px,2.5vh,25px)}
+.count-line{padding:clamp(10px,2.4vh,22px) 0}
+#names{flex:1 1 auto;min-height:0;max-height:none;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+#error:empty{margin:0;min-height:0}
+#error:not(:empty){margin:6px 0;font-size:11px}
+#add{margin-top:12px}
+@media(max-height:600px) and (min-width:701px){
+ main{padding-block:14px}aside{padding:14px 16px}.panel-title h2{font-size:19px;margin-bottom:12px}.count-line{padding:10px 0}.list-label{margin-bottom:10px}
+ #scene{margin-top:10px;margin-bottom:34px}#result.won{bottom:-29px}.primary{min-height:42px;padding:10px 22px}
+}
+@media(max-width:700px){
+ main{padding:14px 16px;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1.25fr) minmax(0,1fr);gap:16px}
+ .intro h1{font-size:24px}#scene{margin-top:8px;margin-bottom:30px}#result.won{bottom:-26px}#result.won strong{font-size:21px}
+ .primary{min-height:40px;padding:10px 20px}aside{width:100%;padding:12px 16px}
+ .panel-title h2{font-size:18px;margin-bottom:8px}.count-line{padding:8px 0}.list-label{margin-bottom:8px}
+ #names{max-height:none}.name-row{margin-bottom:6px}.name-row input{padding:7px 10px}#add{margin-top:8px;padding:8px}
+}
